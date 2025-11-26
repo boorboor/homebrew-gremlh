@@ -1,7 +1,7 @@
 class Gremlh < Formula
   desc "CLI tool to find and fix invisible 'gremlin' characters in source code"
   homepage "https://github.com/boorboor/gremlh"
-  url "https://github.com/boorboor/gremlh/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/boorboor/gremlh/archive/refs/tags/v1.0.1.tar.gz"
   sha256 ""
   license "Apache-2.0"
   depends_on "rust" => :build
