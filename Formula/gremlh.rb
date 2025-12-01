@@ -1,25 +1,25 @@
 class Gremlh < Formula
   desc "A CLI tool to find and fix invisible 'gremlin' characters (homoglyphs, zero-width spaces, Bidi overrides) in source code."
   homepage "https://github.com/boorboor/gremlh"
-  version "1.0.0"
+  version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/boorboor/gremlh/releases/download/1.0.0/gremlh-aarch64-apple-darwin.tar.xz"
-      sha256 "c639eca0b9a4355f791b119179e82fcefe14cbcd0d01b539730d7033d034a061"
+      url "https://github.com/boorboor/gremlh/releases/download/v0.1.0/gremlh-aarch64-apple-darwin.tar.xz"
+      sha256 "1ef092a874d908aa235f0bdaae0fba2c4c8519986c973e034afd4ef3aeffff1e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/boorboor/gremlh/releases/download/1.0.0/gremlh-x86_64-apple-darwin.tar.xz"
-      sha256 "3d94f4e2af897e0c24d16b0f2bc9a332aaf2f6f5b1e6bd7d8e7120e18b571cde"
+      url "https://github.com/boorboor/gremlh/releases/download/v0.1.0/gremlh-x86_64-apple-darwin.tar.xz"
+      sha256 "6c434467e730f11876f6d6270012aa53110ee5410c45626800884ddc06061c77"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/boorboor/gremlh/releases/download/1.0.0/gremlh-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6f4458a1a3eb96458ecc2e63426175cf7a6d029fdfd94ba2eaffc4789414bb25"
+      url "https://github.com/boorboor/gremlh/releases/download/v0.1.0/gremlh-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1f50ccc45296aed84d4b57a372471fdd47c7d4a5abc67abfc192e97eec547dba"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/boorboor/gremlh/releases/download/1.0.0/gremlh-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "13c95bdaebf849f1229e8868e5ac597926210d5b8095efd986a20191680948f7"
+      url "https://github.com/boorboor/gremlh/releases/download/v0.1.0/gremlh-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "35e57a0f36dd47d90d5684d93abb6f41b7ca4d886d60924a956d89ca1d855a59"
     end
   end
   license "Apache-2.0"
